@@ -30,8 +30,8 @@ public class UIMain {
             }
         }
 
-        GameService gameService = new GameService(gameConfig);
-        gameService.buildMainScreen();
+        var mainScreen = new MainScreen(gameConfig);
+        mainScreen.buildMainSreen();
     }
 
     private static Map<String, String> getDefaultBoardConfig() {
